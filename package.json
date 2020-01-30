@@ -1,0 +1,34 @@
+{
+  "name": "kgcpdfback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon -e js",
+    "dev": "node_modules/.bin/nodemon -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "events": {
+    "crash": "node_modules/.bin/nodemon -e js"
+  },
+  "keywords": [
+    "Nodeforward"
+  ],
+  "author": "Naman Satish",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-and-time": "^0.9.0",
+    "express": "^4.17.1",
+    "firebase": "^7.7.0",
+    "localtunnel": "^1.9.2",
+    "mailgun-js": "^0.22.0",
+    "nedb": "^1.8.0",
+    "node-gyp": "^6.1.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "description": ""
+}
