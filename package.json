@@ -13,6 +13,10 @@
   "keywords": [
     "Nodeforward"
   ],
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/username/repository.git"
+  },
   "author": "Naman Satish",
   "license": "GNU GENERAL PUBLIC LICENSE",
   "dependencies": {
@@ -20,10 +24,13 @@
     "date-and-time": "^0.9.0",
     "express": "^4.17.1",
     "firebase": "^7.7.0",
+    "fix": "0.0.6",
     "localtunnel": "^1.9.2",
+    "lodash": "^4.17.15",
     "mailgun-js": "^0.22.0",
     "nedb": "^1.8.0",
     "node-gyp": "^6.1.0",
+    "pdf-form-fill": "^0.2.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
