@@ -14,8 +14,8 @@
     "Nodeforward"
   ],
   "repository": {
-  "type": "git",
-  "url": "git://github.com/username/repository.git"
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
   },
   "author": "Naman Satish",
   "license": "GNU GENERAL PUBLIC LICENSE",
@@ -31,7 +31,8 @@
     "nedb": "^1.8.0",
     "node-gyp": "^6.1.0",
     "pdf-form-fill": "^0.2.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "underscore.string": "^3.3.5"
   },
   "devDependencies": {
     "morgan": "^1.9.1",

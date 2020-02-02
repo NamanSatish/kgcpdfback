@@ -1,9 +1,4 @@
-# Nodeforward
-
-Nodeforward is a nodeserver that has the capabilities of taking an post at http://localhost:1337/api/v1/posts
-From here the server is able to use this information provided (email, name, pngdata) and send it to a recipient email address.
-This project also has the cpability of modifiying the information before it is sent.
-Additionally, this project can save the data being sent for debugging purposes.
+# KGCPDFBACK
 
 ## Getting Started
 
@@ -25,58 +20,13 @@ Browser/Postman to debug
 VsCode
 ```
 
-### Installing
 
-```
-Later
-
-```
-
-## Running the tests
-
-```
-Later
-
-```
-
-### Expected Outputs
-
-```
-Later
-
-```
-
-### Data Base Schema
-
-```
-Later
-```
-
-## Deployment
-
-```
-Later
-
-```
 
 ## Built Using NPM Modules
 
 * [Request]
 * [Express]
 * [Nodemon]
-
-## Contributing
-
-```
-Later
-
-```
-## Versioning
-
-```
-Later
-
-```
 
 ## Authors
 
