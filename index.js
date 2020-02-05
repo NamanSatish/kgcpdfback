@@ -19,7 +19,17 @@ app.use((req, res, next) => { // This is in the index file to make sure that it 
     next();
 });
 
-
+(function() {
+    var childProcess = require("child_process");
+    var oldSpawn = childProcess.spawn;
+    function mySpawn() {
+        console.log('spawn called');
+        console.log(arguments);
+        var result = oldSpawn.apply(this, arguments);
+        return result;
+    }
+    childProcess.spawn = mySpawn;
+})();
 
 // First route
 app.get('/*', (req, res) => { // this is the route if nothing is set after the port number
