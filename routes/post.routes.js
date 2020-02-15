@@ -17,9 +17,9 @@ var Fill = [{"title":"Union","fieldType":"Button","fieldValue":"Off"},{"title":"
 async function PromiseF(req) { // This Function will wait for whatever is inbetween before continuing
     return new Promise((resolve, reject) => {
 
-        
+      var shouldFlatten = false;
         var mappedFields = pdfFiller.mapForm2PDF( Fill, coversionMatrix );
-        pdfFiller.fillForm( sourcePDF, destinationPDF, mappedFields, function(err) {
+        pdfFiller.fillFormWithFlatten( sourcePDF, destinationPDF, mappedFields, shouldFlatten, function(err) {
           console.log("Finished")
           resolve();
           if (err) throw err;
