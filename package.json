@@ -21,7 +21,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "cors": "^2.8.5",
-    "date-and-time": "^0.9.0",
+    "date-and-time": "^0.14.2",
     "express": "^4.17.1",
     "firebase": "^7.8.0",
     "fix": "0.0.6",
