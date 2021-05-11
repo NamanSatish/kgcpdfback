@@ -26,7 +26,7 @@
     "firebase": "^7.8.0",
     "fix": "0.0.6",
     "localtunnel": "^1.9.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mailgun-js": "^0.22.0",
     "nedb": "^1.8.0",
     "node-gyp": "^6.1.0",
